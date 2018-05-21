@@ -1,0 +1,3 @@
+Customer ID 	 Simple Lifetime Value 
+96f55c7d8f43 	 21762.000000000004 
+96f55c7d8f42 	 4624.533333333333 
