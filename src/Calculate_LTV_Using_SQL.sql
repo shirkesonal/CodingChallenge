@@ -50,35 +50,9 @@ date2 TIMESTAMP,
 week INT
 );
 
-# used this TSQL script to genereate insert statements to pupulate WEEK table. - (i am more comfortable with TSQL) Insert statements are in pupulate_week.sql script.
-/* declare @i int
-set @i = 1
-declare @day datetime = '2017-01-01'
-declare @start datetime
-declare @end datetime
-while @i < 52
-begin
-select @start = DATEADD(day,7,@day)
-select @end = DATEADD(day,7,@start)
-select @day = @start
-print( 'insert into week values (' + '''' + convert(varchar(250), @start,101) + '''' + ',' + '''' + convert(varchar(250),@end,101) + '''' + '1);')
-select @i = @i+1
-end */
-/*
-insert into week values ('2017-01-08 00:00:00.000','2017-01-15 00:00:00.000',1);
-insert into week values ('2017-01-15 00:00:00.000','2017-01-22 00:00:00.000',2);
-insert into week values ('2017-01-22 00:00:00.000','2017-01-29 00:00:00.000',3);
-insert into week values ('2017-01-29 00:00:00.000','2017-02-05 00:00:00.000',4);
-insert into week values ('2017-02-05 00:00:00.000','2017-02-12 00:00:00.000',5);
-insert into week values ('2017-02-12 00:00:00.000','2017-02-19 00:00:00.000',6);
-insert into week values ('2017-02-19 00:00:00.000','2017-02-26 00:00:00.000',7);
-insert into week values ('2017-02-26 00:00:00.000','2017-03-05 00:00:00.000',8);
-...................
-*/
-
 
 --Views
-
+ #borrowed logic from a forum on internet.
 
 CREATE VIEW `customer_aquisition_week` AS
 select
@@ -118,7 +92,7 @@ select
 			a.week,
 			a.amount,
 			b.visits,
-			52*a.amount*b.visits*10 as LTV  #borrowed this logic from a forum on internet.
+			52*a.amount*b.visits*10 as LTV
 			from customer_aquisition_week a, customer_sitevisit b
 	where a.customer_id = b.customer_id
 	and a.week = b.week

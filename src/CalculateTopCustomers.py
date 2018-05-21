@@ -1,3 +1,8 @@
+'''
+Usage: python3 CalculateTopCustomers.py -InFile ./input/input.txt -numCust 2
+'''
+
+
 from SimpleLTVCustomers import *
 import argparse, os, json
 
@@ -5,8 +10,6 @@ import argparse, os, json
 def main():
     ltv = SimpleLTVCustomers()
     input_data = None
-    filename = None
-    no_of_customers = None
     input_data_dict = {}
 
     parser = argparse.ArgumentParser(
@@ -32,13 +35,12 @@ def main():
 
     # Calculate top x customers with the highest Simple Lifetime Value from data D.
     status = ltv.TopXSimpleLTVCustomers(x=no_of_customers, D=ltv.Ingest(e=input_data, D=input_data_dict))
-    '''
-    if status:
-        print("The top x customers with the highest Simple Lifetime Value are successfully calculated and populated in output.txt file under output directory.")
-    else:
-        print("Somethign went wrong while calculating top x customers with the highest Simple Lifetime Value. ")
-    '''
 
+    if status:
+        logging.info("The top x customers with the highest Simple Lifetime Value are successfully calculated and populated in output.txt file under output directory.")
+
+    else:
+        logging.info("Somethign went wrong while calculating the highest Simple Lifetime Value for top x customers. ")
 
 
 main()

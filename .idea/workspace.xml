@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="668760be-a117-4b16-8434-1e081c9822fd" name="Default" comment="" />
+    <list default="true" id="668760be-a117-4b16-8434-1e081c9822fd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculateTopCustomers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculateTopCustomers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculate_LTV_Using_SQL.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculate_LTV_Using_SQL.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleLTVCustomers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleLTVCustomers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logs/SimpleLTV.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/logs/SimpleLTV.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -23,22 +29,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculate_LTV_Using_SQL.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Calculate_LTV_Using_SQL.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculate_LTV_Using_SQL.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="1410">
+              <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelperClasses.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelperClasses.py">
+      <file leaf-file-name="SimpleLTVCustomers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SimpleLTVCustomers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="465">
+              <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleLTV.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logs/SimpleLTV.log">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="output.txt" pinned="false" current-in-tab="false">
@@ -58,10 +69,10 @@
       <file leaf-file-name="CalculateTopCustomers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CalculateTopCustomers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="-31">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#11#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,16 +88,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Simple_LTV_Customers" />
         <option value="$PROJECT_DIR$/src/HelperClasses.py" />
-        <option value="$PROJECT_DIR$/src/CalculateTopCustomers.py" />
         <option value="$PROJECT_DIR$/output/output.txt" />
         <option value="$PROJECT_DIR$/input/input.txt" />
-        <option value="$PROJECT_DIR$/src/SimpleLTVCustomers.py" />
         <option value="$PROJECT_DIR$/src/Calculate_using_SQL.sql" />
+        <option value="$PROJECT_DIR$/src/CalculateTopCustomers.py" />
+        <option value="$PROJECT_DIR$/src/SimpleLTVCustomers.py" />
+        <option value="$PROJECT_DIR$/src/Calculate_LTV_Using_SQL.sql" />
       </list>
     </option>
   </component>
@@ -96,6 +111,7 @@
     <option name="width" value="570" />
     <option name="height" value="382" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,6 +128,12 @@
               <item name="code-challenge-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-challenge-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code-challenge-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code-challenge-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,17 +221,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="FAQ Robot" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37057388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17521368" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="right" id="R Packages" order="3" />
@@ -257,9 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#1138#1153#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -268,7 +288,7 @@
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#11#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -288,16 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculateTopCustomers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output/output.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -308,18 +318,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleLTVCustomers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="149" column="90" selection-start-line="149" selection-start-column="90" selection-end-line="149" selection-end-column="90" />
-          <folding>
-            <element signature="e#1138#1153#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-571">
+            <caret selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logs/SimpleLTV.log">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HelperClasses.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -328,20 +335,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculate_LTV_Using_SQL.sql">
+    <entry file="file://$PROJECT_DIR$/src/CalculateTopCustomers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="-31">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <folding>
+            <element signature="e#11#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-571">
-            <caret selection-end-line="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/SimpleLTVCustomers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logs/SimpleLTV.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Calculate_LTV_Using_SQL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
         </state>
       </provider>
     </entry>

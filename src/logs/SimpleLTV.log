@@ -1,4 +1,5 @@
-05-20 16:13 root         INFO     The following is the Simple Livetime Value for Shutterfly customers. 
-05-20 16:13 root         INFO     Customer ID 	 Simple Lifetime Value
-05-20 16:13 root         INFO     96f55c7d8f43 	 21762.000000000004
-05-20 16:13 root         INFO     96f55c7d8f42 	 4624.533333333333
+05-20 22:58 INFO The following is the Simple Livetime Value for Shutterfly customers. 
+05-20 22:58 INFO Customer ID 	 Simple Lifetime Value
+05-20 22:58 INFO 96f55c7d8f43 	 21762.000000000004
+05-20 22:58 INFO 96f55c7d8f42 	 4624.533333333333
+05-20 22:58 INFO The top x customers with the highest Simple Lifetime Value are successfully calculated and populated in output.txt file under output directory.

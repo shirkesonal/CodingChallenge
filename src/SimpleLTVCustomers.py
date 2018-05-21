@@ -31,7 +31,7 @@ class SimpleLTVCustomers(object):
     def __init__(self):
         # set up logging to file - see previous section for more details
         logging.basicConfig(level=logging.DEBUG,
-                            format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
+                            format='%(asctime)s %(levelname)-2s %(message)s',
                             datefmt='%m-%d %H:%M',
                             filename='./src/logs/SimpleLTV.log',
                             filemode='w')
