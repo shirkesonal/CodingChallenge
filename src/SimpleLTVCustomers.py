@@ -1,6 +1,6 @@
 """
 Created on April, 2018
-__author__: sshirke
+__author__: sonal shirke
 
 Description: One way to analyze acquisition strategy and estimate marketing cost is to calculate the Lifetime Value (“LTV”) of a customer.
 Simply speaking, LTV is the projected revenue that customer will generate during their lifetime. A simple LTV can be calculated using the following equation: 52(a) x t.
